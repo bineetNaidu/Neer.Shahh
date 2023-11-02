@@ -186,7 +186,7 @@
 					<span>Say cheese and share the love</span>
 					<h2>Picture Perfect Moments</h2>
 					<p>Upload your funniest, loveliest, and most 'frame-worthy' moments with us</p>
-					<button style="background-color: pink; border-radius: 5px; border-color: white; font-family:'Times New Roman', Times, serif; color: white; width: 200px; height: 50px; font-size: 20px;">Upload here</button>
+					<button  style="background-color: pink; border-radius: 5px; border-color: white; font-family:'Times New Roman', Times, serif; color: white; width: 200px; height: 50px; font-size: 20px;" id="uploadButton" onclick="openGoogleDrive()">Upload</button>
 				</div>
 			</div>
 			
@@ -332,6 +332,12 @@
         enableUtc: false
     });
 </script>
+		<script>
+	function openGoogleDrive() {
+	  // Replace 'https://drive.google.com' with the URL of Google Drive
+	  window.open('https://drive.google.com/drive/folders/1G87cSqQcrqukilOnQUGbgobOdu0r088j?usp=drive_link', '_blank');
+	}
+	</script>
 
 	</body>
 </html>
